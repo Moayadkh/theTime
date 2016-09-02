@@ -1,0 +1,16 @@
+@import 'https://fonts.googleapis.com/css?family=Heebo:100';
+
+html, body{
+  padding:0; margin:0;
+  background:rgba(0,50,100,1);
+  color: #9FB009;
+  font-size:2em;
+  font-weight: 100;
+  font-family: 'Heebo', sans-serif;
+}
+
+#display-time{
+  padding:0 0 0 15px;
+  margin:40px 0 0 0;
+  border-left: 19px solid #9FB009;
+}

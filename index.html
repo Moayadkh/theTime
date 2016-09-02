@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>theTime</title>
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+</head>
+
+<body>
+
+
+<script type="text/javascript">
+// load Time script
+function initApp(){
+var cElement = document.createElement("script");
+var gBody    = document.body;
+cElement.src = 'Core.js';
+cElement.setAttribute(
+  'type','text/javascript'
+);
+
+cElement.setAttribute(
+  'charset', 'UTF-8'
+);
+
+gBody.appendChild(cElement);
+
+}
+
+document.body.addEventListener('load', initApp(), false);
+
+</script>
+</body>
+</html>
